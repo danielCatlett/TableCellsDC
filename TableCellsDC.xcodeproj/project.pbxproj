@@ -14,6 +14,7 @@
 		3F73E1581E6BC2EB0005404D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F73E1561E6BC2EB0005404D /* LaunchScreen.storyboard */; };
 		3F73E1631E6BC2EB0005404D /* TableCellsDCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F73E1621E6BC2EB0005404D /* TableCellsDCTests.swift */; };
 		3F73E16E1E6BC2EB0005404D /* TableCellsDCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F73E16D1E6BC2EB0005404D /* TableCellsDCUITests.swift */; };
+		3F73E17C1E6BC3EE0005404D /* NameAndColorCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F73E17B1E6BC3EE0005404D /* NameAndColorCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3F73E1691E6BC2EB0005404D /* TableCellsDCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableCellsDCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F73E16D1E6BC2EB0005404D /* TableCellsDCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellsDCUITests.swift; sourceTree = "<group>"; };
 		3F73E16F1E6BC2EB0005404D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F73E17B1E6BC3EE0005404D /* NameAndColorCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameAndColorCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +99,11 @@
 		3F73E14C1E6BC2EB0005404D /* TableCellsDC */ = {
 			isa = PBXGroup;
 			children = (
-				3F73E14D1E6BC2EB0005404D /* AppDelegate.swift */,
-				3F73E14F1E6BC2EB0005404D /* ViewController.swift */,
 				3F73E1511E6BC2EB0005404D /* Main.storyboard */,
+				3F73E14F1E6BC2EB0005404D /* ViewController.swift */,
+				3F73E17B1E6BC3EE0005404D /* NameAndColorCellTableViewCell.swift */,
 				3F73E1541E6BC2EB0005404D /* Assets.xcassets */,
+				3F73E14D1E6BC2EB0005404D /* AppDelegate.swift */,
 				3F73E1561E6BC2EB0005404D /* LaunchScreen.storyboard */,
 				3F73E1591E6BC2EB0005404D /* Info.plist */,
 			);
@@ -261,6 +264,7 @@
 			files = (
 				3F73E1501E6BC2EB0005404D /* ViewController.swift in Sources */,
 				3F73E14E1E6BC2EB0005404D /* AppDelegate.swift in Sources */,
+				3F73E17C1E6BC3EE0005404D /* NameAndColorCellTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
